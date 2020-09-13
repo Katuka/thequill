@@ -1,0 +1,46 @@
+.hero {
+  /* background-color: tomato; */
+  padding: 2rem 0;
+}
+
+.hero__greeting {
+  font-weight: 800;
+  color: #727272;
+}
+
+.hero__heading {
+  font-size: black;
+}
+
+.hero__input-wrapper {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.hero__input {
+  width: 90%;
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 3px;
+  padding: 2px 0.8rem;
+}
+
+.hero__input::placeholder {
+  color: #808080;
+  font-weight: 600;
+}
+
+.hero__input:focus {
+  outline: none;
+}
+
+.hero__search-wrapper {
+  background-color: #000000;
+  border-radius: 3px;
+  padding: 0.4rem 0.6rem;
+}
+
+.hero__search-wrapper {
+  color: white;
+  text-align: center;
+}

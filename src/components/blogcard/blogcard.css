@@ -1,0 +1,41 @@
+.blog {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.blog__image {
+  max-width: 9rem;
+  width: 100%;
+  height: auto;
+  border-radius: 0.4rem;
+  margin-right: 0.8rem;
+}
+
+.blog__title {
+  font-weight: 900;
+}
+
+.blog__details {
+  align-items: center;
+  color: #666666;
+  display: flex;
+  font-weight: 800;
+  margin-top: 0.6rem;
+}
+
+.blog__owner {
+  font-size: 0.7rem;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: #666666;
+  margin: 0 0.5rem;
+}
+
+.blog__date {
+  font-size: 0.7rem;
+}

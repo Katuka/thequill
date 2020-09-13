@@ -1,0 +1,17 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.navigation__nav {
+  display: none;
+}
+
+.navigation__logo {
+  width: 2rem;
+}
+
+.navigation__hum {
+  width: 2rem;
+}

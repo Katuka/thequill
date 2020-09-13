@@ -1,0 +1,21 @@
+.tag__list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+
+  list-style: none;
+  padding: 1rem 0.2rem;
+}
+
+.tag__list-item {
+  flex: 0 0 auto;
+  margin-right: 1rem;
+  background-color: #e6e6e6;
+  padding: 0.2rem 0.8rem;
+  border-radius: 0.8rem;
+}
+
+.current {
+  color: #ffffff;
+  background-color: #000000;
+}
