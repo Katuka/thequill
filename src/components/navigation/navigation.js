@@ -1,4 +1,6 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+
 import logo from "../../img/feather.svg";
 import menu from "../../img/menu.svg";
 import Modal from "../modal/modal";
@@ -14,18 +16,25 @@ const Navigation = () => {
 
   return (
     <>
-    {openModal && <Modal close={onModalClose}>
-        <h1>
-          MODAL CONTENT
-        </h1>
-      </Modal>}
-    <header className="navigation">
-      <img src={logo} alt="Feather" className="navigation__logo" />
-      <div className="navigation__nav">
-        <Navlinks />
-      </div>
-      <img src={menu} alt="Menu" className="navigation__hum" onClick={onModalOpen} />
-    </header>
+      {openModal && (
+        <Modal close={onModalClose}>
+          <Navlinks />
+        </Modal>
+      )}
+      <header className="navigation">
+        <NavLink to="/blogs">
+          <img src={logo} alt="Feather" className="navigation__logo" />
+        </NavLink>
+        <div className="navigation__nav">
+          <Navlinks />
+        </div>
+        <img
+          src={menu}
+          alt="Menu"
+          className="navigation__hum"
+          onClick={onModalOpen}
+        />
+      </header>
     </>
   );
 };
