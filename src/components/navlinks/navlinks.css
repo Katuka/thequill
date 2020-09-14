@@ -1,0 +1,16 @@
+.navigation__list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  list-style: none;
+  margin-top: 3rem;
+}
+
+.navigation__list-item {
+  font-size: 2rem;
+  justify-content: space-between;
+  font-weight: 900;
+  /* align-content: space-between; */
+  margin-bottom: 4rem;
+}

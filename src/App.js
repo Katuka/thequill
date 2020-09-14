@@ -1,17 +1,21 @@
 import React from "react";
-import "./App.css";
-import Bloglist from "./components/bloglist/bloglist";
-import Hero from "./components/hero/hero";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import Home from "./components";
 import Navigation from "./components/navigation/navigation";
-import Tag from "./components/tags/tag";
+import "./App.css";
 
 function App() {
   return (
     <main>
-      <Navigation />
-      <Hero />
-      <Tag />
-      <Bloglist />
+      <Router>
+        <Navigation />
+        <Switch>
+          <Route path="/blogs" exact>
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </main>
   );
 }
