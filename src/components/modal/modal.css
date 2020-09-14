@@ -1,0 +1,24 @@
+.modal {
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    background-color: tomato;
+    z-index: 1000;
+    padding: 1rem 2rem;
+    overflow: hidden !important;
+}
+
+.modal__header {
+    text-align: right;
+}
+
+.modal__body {
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
