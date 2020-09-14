@@ -1,0 +1,27 @@
+.navigation__list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  list-style: none;
+  margin-top: 3rem;
+}
+
+.navigation__list-item {
+  font-size: 2rem;
+  justify-content: space-between;
+  font-weight: 900;
+  /* align-content: space-between; */
+  margin-bottom: 4rem;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  /* font-size: 72px; */
+  /* background: -webkit-linear-gradient(red, blue); */
+  background: linear-gradient(90deg, #5510af 0%, #973ffb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
