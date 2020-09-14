@@ -3,8 +3,10 @@ import React from "react";
 import { TAGS } from "../data/data";
 import "./tag.css";
 
-const click = (e) => {
-  e.target.classList.toggle("current");
+const click = (e, id) => {
+  if (e.target === id) {
+    e.target.classList.toggle("current");
+  }
 };
 
 const Tag = () => {

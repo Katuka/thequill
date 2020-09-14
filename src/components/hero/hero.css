@@ -14,11 +14,12 @@
 
 .hero__input-wrapper {
   display: flex;
+  justify-content: space-between;
   margin: 1rem 0;
 }
 
 .hero__input {
-  width: 90%;
+  width: 80%;
   background-color: #eeeeee;
   border: none;
   border-radius: 3px;
@@ -37,7 +38,7 @@
 .hero__search-wrapper {
   background-color: #000000;
   border-radius: 3px;
-  padding: 0.4rem 0.6rem;
+  padding: 0.4rem 1rem;
 }
 
 .hero__search-wrapper {
