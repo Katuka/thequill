@@ -5,7 +5,7 @@
   width: 100%;
   left: 0;
   position: fixed;
-  background-color: black;
+  background-color: #1f1f1f;
   z-index: 1000;
   padding: 1rem;
   overflow: hidden !important;
@@ -17,9 +17,9 @@
 
 .modal__body {
   /* overflow: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center; */
   color: white;
 }
