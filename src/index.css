@@ -15,8 +15,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding: 1rem;
 
-  overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
 }
 
 code {
