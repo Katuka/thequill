@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import "./modal.css";
 
 const Modal = () => {
-    const content = ()
-}
+  // const content = ()
+};
 
 export default Modal;
