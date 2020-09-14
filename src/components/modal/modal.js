@@ -7,8 +7,8 @@ import "./modal.css";
 const Modal = ({ children, close }) => {
   const content = (
     <div className="modal">
-      <div className="modal__header">
-        <img src={closeicon} alt="Close icon" onClick={close} />
+      <div className="modal__header" onClick={close}>
+        <img src={closeicon} alt="Close icon" />
       </div>
       <div className="modal__body" onClick={close}>
         {children}

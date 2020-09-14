@@ -13,4 +13,15 @@
   font-weight: 900;
   /* align-content: space-between; */
   margin-bottom: 4rem;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  /* font-size: 72px; */
+  /* background: -webkit-linear-gradient(red, blue); */
+  background: linear-gradient(90deg, #5510af 0%, #973ffb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
