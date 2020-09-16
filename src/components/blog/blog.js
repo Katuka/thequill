@@ -6,7 +6,7 @@ import arrow from "../../img/arrow-left.svg";
 import b from "../../img/b.png";
 import heart from "../../img/heart.svg";
 import share from "../../img/share.svg";
-import save from "../../img/save.svg";
+import bookmark from "../../img/bookmark.svg";
 import { BLOGS } from "../data/data";
 import "./blog.css";
 
@@ -53,7 +53,7 @@ const Blog = () => {
           <p>5</p>
         </div>
         <div className="blog__footer-item">
-          <img src={save} alt="Heart" />
+          <img src={bookmark} alt="Heart" />
           <p>15</p>
         </div>
       </footer>
