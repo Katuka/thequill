@@ -21,7 +21,8 @@ const BLOGS = [
     image: android,
     writer: "James Mwale",
     date: "12 Feb, 2020",
-    blog: "This is a blog about Android 11 Release.",
+    blog:
+      "You’ll also want to consider the type of business you have, as well as the audience you’re targeting. Does the font need to be professional? Or do you have some room to be a bit unique?",
   },
   {
     id: 2,
@@ -29,7 +30,8 @@ const BLOGS = [
     image: freedom,
     writer: "Mutale Katebe",
     date: "12 Feb, 2020",
-    blog: "This is a blog about Freedom, we want it!",
+    blog:
+      "You’ll also want to consider the type of business you have, as well as the audience you’re targeting. Does the font need to be professional? Or do you have some room to be a bit unique?",
   },
   {
     id: 3,
@@ -37,7 +39,8 @@ const BLOGS = [
     image: pizza,
     writer: "Mutale Katebe",
     date: "12 Feb, 2020",
-    blog: "This is a blog about Pizza and nice food.",
+    blog:
+      "You’ll also want to consider the type of business you have, as well as the audience you’re targeting. Does the font need to be professional? Or do you have some room to be a bit unique?",
   },
   {
     id: 4,
@@ -45,7 +48,8 @@ const BLOGS = [
     image: education,
     writer: "James Mwale",
     date: "12 Feb, 2020",
-    blog: "This is a blog about Education and Intelligence.",
+    blog:
+      "You’ll also want to consider the type of business you have, as well as the audience you’re targeting. Does the font need to be professional? Or do you have some room to be a bit unique?",
   },
 ];
 
