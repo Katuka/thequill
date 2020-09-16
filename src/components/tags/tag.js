@@ -3,9 +3,9 @@ import React from "react";
 import { TAGS } from "../data/data";
 import "./tag.css";
 
-const click = (e, id) => {
-  if (e.target === id) {
-    e.target.classList.toggle("current");
+const click = (e, tag) => {
+  if (e.target.textContent === tag) {
+    e.target.classList.add("current");
   }
 };
 

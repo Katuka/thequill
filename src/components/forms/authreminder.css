@@ -1,0 +1,30 @@
+.authreminder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.authreminder__greeting {
+  padding-bottom: 0.4rem;
+}
+
+.authreminder__text {
+  padding-bottom: 0.6rem;
+}
+
+.authreminder__login {
+  padding: 1rem;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 2rem;
+  border: none;
+  margin-bottom: 0.4rem;
+}
+
+.authreminder__signup a {
+  color: inherit;
+  text-decoration: none;
+}

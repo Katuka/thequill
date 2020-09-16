@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams, useHistory } from "react-router-dom";
+import { motion } from "framer-motion";
 import Useanimations from "react-useanimations";
 
 import arrow from "../../img/arrow-left.svg";
@@ -22,41 +23,43 @@ const Blog = () => {
           className="go__back"
           onClick={() => history.goBack()}
         />
-        <div className="blog__header">
-          <img src={b} alt="Logo" className="blog__logo" />
-          <div className="blog__header-dets">
-            <p className="blog__date">{blog.date}</p>
-            <h3 className="blog__author">{blog.writer}</h3>
+        <motion.div initial={{ y: "10vh" }} animate={{ y: 0 }}>
+          <div className="blog__header">
+            <img src={b} alt="Logo" className="blog__logo" />
+            <div className="blog__header-dets">
+              <p className="blog__date">{blog.date}</p>
+              <h3 className="blog__author">{blog.writer}</h3>
+            </div>
           </div>
-        </div>
-        <h1 className="blog__title-dets">{blog.title}</h1>
-        <p className="blog__content">
-          The first thing you need to do is determine what type of content the
-          font will be used for.
-        </p>
-        <img src={blog.image} alt="Android" className="blog__img" />
-        <p className="blog__content">
-          The first thing you need to do is determine what type of content the
-          font will be used for. Decide if the fonts are for your blog,
-          homepage, landing page, product description, or navigation menu.
-        </p>
-        <p className="blog__content">{blog.blog}</p>
-        <p className="blog__content">{blog.blog}</p>
+          <h1 className="blog__title-dets">{blog.title}</h1>
+          <p className="blog__content">
+            The first thing you need to do is determine what type of content the
+            font will be used for.
+          </p>
+          <img src={blog.image} alt="Android" className="blog__img" />
+          <p className="blog__content">
+            The first thing you need to do is determine what type of content the
+            font will be used for. Decide if the fonts are for your blog,
+            homepage, landing page, product description, or navigation menu.
+          </p>
+          <p className="blog__content">{blog.blog}</p>
+          <p className="blog__content">{blog.blog}</p>
+        </motion.div>
+        <footer className="blog__footer">
+          <div className="blog__footer-item">
+            <img src={heart} alt="Heart" />
+            <p>32</p>
+          </div>
+          <div className="blog__footer-item">
+            <img src={share} alt="Heart" />
+            <p>5</p>
+          </div>
+          <div className="blog__footer-item">
+            <img src={bookmark} alt="Heart" />
+            <p>15</p>
+          </div>
+        </footer>
       </div>
-      <footer className="blog__footer">
-        <div className="blog__footer-item">
-          <img src={heart} alt="Heart" />
-          <p>32</p>
-        </div>
-        <div className="blog__footer-item">
-          <img src={share} alt="Heart" />
-          <p>5</p>
-        </div>
-        <div className="blog__footer-item">
-          <img src={bookmark} alt="Heart" />
-          <p>15</p>
-        </div>
-      </footer>
     </React.Fragment>
   ));
 };
