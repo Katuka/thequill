@@ -1,4 +1,9 @@
-.blog {
+.blog__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog__card {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
@@ -36,6 +41,6 @@
   margin: 0 0.5rem;
 }
 
-.blog__date {
+.blog__card-date {
   font-size: 0.7rem;
 }

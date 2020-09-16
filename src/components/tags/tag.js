@@ -12,13 +12,11 @@ const click = (e, id) => {
 const Tag = () => {
   return (
     <ul className="tag__list">
-      {TAGS.map((tag, i) => {
-        return (
-          <li className="tag__list-item" key={i} onClick={click}>
-            {tag}
-          </li>
-        );
-      })}
+      {TAGS.map((tag, i) => (
+        <li className="tag__list-item" key={i} onClick={click}>
+          {tag}
+        </li>
+      ))}
     </ul>
   );
 };
