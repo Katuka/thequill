@@ -1,0 +1,30 @@
+.auth__modal {
+  top: 25%;
+  left: auto;
+  transform: translate(50%, -50%);
+  /* height: 50%; */
+  width: 90%;
+  position: fixed;
+  padding: 3rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  z-index: 1000;
+  padding: 1rem;
+  overflow: hidden !important;
+}
+
+.auth__modal-header--wrapper {
+  /* text-align: right; */
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.9px solid #dadada;
+  padding-bottom: 0.4rem;
+}
+
+.auth__modal-header--image {
+  text-align: right;
+  background-color: #ececec;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: fit-content;
+}

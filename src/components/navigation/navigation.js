@@ -5,6 +5,7 @@ import logo from "../../img/feather.svg";
 import menu from "../../img/menu.svg";
 import Modal from "../modal/modal";
 import Navlinks from "../navlinks/navlinks";
+import Backdrop from "../backdrop/backdrop";
 
 import "./navigation.css";
 
@@ -16,6 +17,7 @@ const Navigation = () => {
 
   return (
     <>
+      {openModal && <Backdrop />}
       {openModal && (
         <Modal close={onModalClose}>
           <Navlinks />
