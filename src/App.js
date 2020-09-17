@@ -12,7 +12,7 @@ function App() {
     <main>
       <Router>
         <ScrollToTop>
-          <Navigation />
+          {/* <Navigation /> */}
           <Switch>
             <Route path="/blogs" exact>
               <Home />
