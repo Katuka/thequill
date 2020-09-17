@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import logo from "../../img/feather.svg";
+import face from "../../img/face.svg";
 import menu from "../../img/menu.svg";
 import Modal from "../modal/modal";
 import Navlinks from "../navlinks/navlinks";

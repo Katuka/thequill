@@ -22,14 +22,14 @@ const Fab = () => {
         </AuthModal>
       )}
       <div className="fab" onClick={onShow}>
-        <Link>
-          <img
-            src={pen}
-            alt="Pen"
-            className="fab__icon"
-            style={{ color: "white" }}
-          />
-        </Link>
+        {/* <Link> */}
+        <img
+          src={pen}
+          alt="Pen"
+          className="fab__icon"
+          style={{ color: "white" }}
+        />
+        {/* </Link> */}
       </div>
     </React.Fragment>
   );
