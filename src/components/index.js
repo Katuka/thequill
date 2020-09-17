@@ -8,7 +8,7 @@ import Tag from "./tags/tag";
 function Home() {
   return (
     <main>
-      <Navigation />
+      {/* <Navigation /> */}
       <Hero />
       <Tag />
       <Bloglist />

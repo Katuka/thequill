@@ -7,11 +7,11 @@
 }
 
 .authreminder__greeting {
-  padding-bottom: 0.4rem;
+  padding-bottom: 0.8rem;
 }
 
 .authreminder__text {
-  padding-bottom: 0.6rem;
+  padding-bottom: 1rem;
 }
 
 .authreminder__login {
@@ -21,7 +21,7 @@
   font-weight: 800;
   border-radius: 2rem;
   border: none;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
 }
 
 .authreminder__signup a {
