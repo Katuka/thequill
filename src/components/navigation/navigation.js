@@ -25,7 +25,7 @@ const Navigation = () => {
         </Modal>
       )}
       <header className="navigation">
-        <NavLink to="/blogs">
+        <NavLink to="/">
           <img src={logo} alt="Feather" className="navigation__logo" />
         </NavLink>
         <div className="navigation__nav">
