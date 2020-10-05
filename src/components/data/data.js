@@ -50,7 +50,7 @@ const BLOGS = [
   },
   {
     id: 4,
-    title: "Education the key to Intelligence",
+    title: "Education, the key to Intelligence",
     image: education,
     writer: "James Mwale",
     date: "2 hours ago",
