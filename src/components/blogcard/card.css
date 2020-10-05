@@ -1,0 +1,50 @@
+.card {
+  background-color: #ffffff;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.card__img {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+}
+
+.card__info {
+  padding: 1rem 0.8rem;
+}
+
+.card__title {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.card__intro {
+  color: #5e5d5d;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.card__dets {
+  display: flex;
+  align-items: center;
+  color: #5e5d5d;
+  font-weight: 500;
+}
+
+.card__dets img {
+  margin-right: 1rem;
+}
+
+.card__dets-1 {
+  display: flex;
+}
+
+.card__hyphen {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+}

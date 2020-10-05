@@ -20,7 +20,9 @@ const BLOGS = [
     title: "Android 11 Release major updates",
     image: android,
     writer: "James Mwale",
-    date: "12 Feb, 2020",
+    date: "2 hours ago",
+    intro:
+      "You’ll also want to consider the type of business you have, as well as the audience",
     blog:
       "You’ll also want to consider the type of business you have, as well as the audience you’re targeting. Does the font need to be professional? Or do you have some room to be a bit unique?",
   },
@@ -29,7 +31,9 @@ const BLOGS = [
     title: "Freedom, we want it!",
     image: freedom,
     writer: "Mutale Katebe",
-    date: "12 Feb, 2020",
+    date: "2 hours ago",
+    intro:
+      "You’ll also want to consider the type of business you have, as well as the audience",
     blog:
       "You’ll also want to consider the type of business you have, as well as the audience you’re targeting. Does the font need to be professional? Or do you have some room to be a bit unique?",
   },
@@ -38,7 +42,9 @@ const BLOGS = [
     title: "Pizza, your favourite food.",
     image: pizza,
     writer: "Mutale Katebe",
-    date: "12 Feb, 2020",
+    date: "2 hours ago",
+    intro:
+      "You’ll also want to consider the type of business you have, as well as the audience",
     blog:
       "You’ll also want to consider the type of business you have, as well as the audience you’re targeting. Does the font need to be professional? Or do you have some room to be a bit unique?",
   },
@@ -47,7 +53,9 @@ const BLOGS = [
     title: "Education the key to Intelligence",
     image: education,
     writer: "James Mwale",
-    date: "12 Feb, 2020",
+    date: "2 hours ago",
+    intro:
+      "You’ll also want to consider the type of business you have, as well as the audience",
     blog:
       "You’ll also want to consider the type of business you have, as well as the audience you’re targeting. Does the font need to be professional? Or do you have some room to be a bit unique?",
   },
