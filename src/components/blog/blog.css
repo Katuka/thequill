@@ -22,16 +22,19 @@
 .blog__header-dets {
   border-left: 4px solid #333333;
   padding-left: 1rem;
+  color: #3d3d3d;
+  padding-right: 1rem;
 }
 
 .blog__date {
-  font-weight: 700;
-  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  font-size: 0.8rem;
 }
 
 .blog__author {
-  font-weight: 900;
-  font-size: 1.3rem;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .blog__img {
@@ -45,17 +48,17 @@
 }
 
 .blog__title-dets {
-  font-weight: 700;
-  font-size: 2.3rem;
+  font-weight: 500;
+  font-size: 2rem;
   margin-bottom: 1rem;
-  font-family: "PT Sans Narrow", serif;
+  /* font-family: "PT Sans Narrow", serif; */
 }
 
 .blog__content {
-  font-size: 1.08rem;
-  line-height: 1.4rem;
+  font-size: 1.06rem;
+  line-height: 1.78rem;
   margin-bottom: 1rem;
-  color: #161616;
+  color: #1f1f1f;
 }
 
 .blog__footer {
