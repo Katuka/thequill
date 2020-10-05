@@ -23,7 +23,7 @@ function App() {
           {/* {path === "/blogs/:id" ? <Navigation /> : null} */}
           <Navigation />
           <Switch>
-            <Route path="/blogs" exact>
+            <Route path="/" exact>
               <Home />
             </Route>
             <Route path="/blogs/:id" exact>
