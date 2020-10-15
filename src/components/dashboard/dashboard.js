@@ -3,32 +3,32 @@ import face from "../../img/face.jpg";
 import edit from "../../img/edit.svg";
 
 import "./dashboard.css";
-import Tag from "../tags/tag";
-import Bloglist from "../bloglist/bloglist";
+// import Tag from "../tags/tag";
+// import Bloglist from "../bloglist/bloglist";
+import BlogList from "../blogcard/blogcardContainer";
 import Fab from "../fab/fab";
 
 const Dashboard = () => {
   return (
     <>
       <div className="dashboard">
-        <div className="dashboard__img-wrapper">
-          <img src={face} alt="Face" className="dashboard__img" />
+        <h2 className="dashboard-title">Dashboard</h2>
+        <div className="dashboard-card">
+          <div>   
+            <div className="dashboard__img-wrapper">
+              <img src={face} alt="Face" className="dashboard__img" />
+            </div>
+            <div className="dashboard__person-dets">
+              <h4 className="dashboard__person-name">Mutale Katebe</h4>
+              <div className="dashboard__person-email">katebe.mutale@gmail.com</div>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto libero officia.</p>
+            </div>
+          </div>
+          <img src={edit} alt="Edit" className="edit" />
         </div>
-        <div className="dashboard__person-dets">
-          <h3 className="dashboard__person-name">Mutale Katebe</h3>
-          <p className="dashboard__person-email">katebe.mutale@gmail.com</p>
-          <button className="dashboard__person-edit">
-            <img src={edit} alt="Edit" />
-            <p>Edit</p>
-          </button>
-        </div>
-        {/* <h3 className="dashboard__list-title">Your Blogs</h3> */}
-        <div className="dashboard__tag-wrapper">
-          <div className="dashboard__tag selected">My blogs</div>
-          <div className="dashboard__tag">Saved Blogs</div>
-        </div>
+        <h3 className="dashboard__list-title">Your Blogs</h3>
         <div className="dashboard__bloglist">
-          <Bloglist />
+          <BlogList />
         </div>
       </div>
       <Fab />

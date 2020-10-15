@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import pen from "../../img/featherlight.svg";
+import pen from "../../img/edit.svg";
 import Backdrop from "../backdrop/backdrop";
 import AuthModal from "../modal/authmodal";
 import AuthReminder from "../forms/authreminder";
@@ -22,14 +22,12 @@ const Fab = () => {
         </AuthModal>
       )}
       <div className="fab" onClick={onShow}>
-        {/* <Link> */}
         <img
           src={pen}
           alt="Pen"
           className="fab__icon"
-          style={{ color: "white" }}
         />
-        {/* </Link> */}
+        <h5>New blog</h5>
       </div>
     </React.Fragment>
   );
