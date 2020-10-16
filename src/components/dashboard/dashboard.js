@@ -3,8 +3,6 @@ import face from "../../img/face.jpg";
 import edit from "../../img/edit.svg";
 
 import "./dashboard.css";
-// import Tag from "../tags/tag";
-// import Bloglist from "../bloglist/bloglist";
 import BlogList from "../blogcard/blogcardContainer";
 import Fab from "../fab/fab";
 

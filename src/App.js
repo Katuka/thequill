@@ -12,6 +12,8 @@ import Blog from "./components/blog/blog";
 import ScrollToTop from "./scroll";
 import "./App.css";
 import Dashboard from "./components/dashboard/dashboard";
+import Signup from "./components/auth/signup/signup";
+import Signin from "./components/auth/signin/signin";
 
 function App() {
   // const path = useParams();
@@ -31,6 +33,12 @@ function App() {
             </Route>
             <Route path="/dashboard" exact>
               <Dashboard />
+            </Route>
+            <Route path="/auth/signup" exact>
+              <Signup />
+            </Route>
+            <Route path="/auth/signin" exact>
+              <Signin />
             </Route>
           </Switch>
         </ScrollToTop>
