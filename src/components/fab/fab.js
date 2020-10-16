@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 import pen from "../../img/edit.svg";
 import Backdrop from "../backdrop/backdrop";

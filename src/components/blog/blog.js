@@ -17,12 +17,6 @@ const Blog = () => {
   return BLOGS.filter((blog) => blog.id === parseInt(path)).map((blog) => (
     <React.Fragment key={blog.id}>
       <div className="blog">
-        <img
-          src={arrow}
-          alt="Go back"
-          className="go__back"
-          onClick={() => history.goBack()}
-        />
         <motion.div initial={{ y: "10vh" }} animate={{ y: 0 }}>
           <div className="blog__header">
             <img src={b} alt="Logo" className="blog__logo" />
